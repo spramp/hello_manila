@@ -2,7 +2,7 @@
 
 $headline-text: 3rem; // 3rem;
 $body-text: 1rem; // 1rem;
-$background: rgba(255, 198, 102, 1);
+$background: rgba(191, 224, 223, 1);
 $nav-item: 1.25rem; // 1.25rem;
 $sub-header: 1.50rem; // 1.5rem;
 $byLine: 0.75rem; //0.75rem;
@@ -47,7 +47,7 @@ body {
   float: right;
 }
 
-#content {
+#section {
   background-color: white;
   font-family: $font-family;
   border: 1px dotted black;
@@ -63,7 +63,7 @@ body {
   font-family: $font-family;
   border: 1px dotted black;
   margin: 3px;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 60px;
   width: 25.5%;
   height: 610px;
   float: left;
@@ -77,4 +77,23 @@ body {
   margin: 3px;
   padding: 5px;
   clear: both;
+}
+
+a:link {
+  color: rgba(251, 162, 80, 1);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(251, 162, 80, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(191, 224, 223, 1);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgba(205, 78, 80, 1);
 }

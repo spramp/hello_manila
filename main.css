@@ -1,5 +1,5 @@
 body {
-  background-color: #ffc666; }
+  background-color: #bfe0df; }
 
 #wrapper {
   width: 90%;
@@ -32,7 +32,7 @@ body {
   height: 250px;
   float: right; }
 
-#content {
+#section {
   background-color: white;
   font-family: Helvetica, Arial, sans-serif;
   border: 1px dotted black;
@@ -47,7 +47,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   border: 1px dotted black;
   margin: 3px;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 60px;
   width: 25.5%;
   height: 610px;
   float: left; }
@@ -60,5 +60,20 @@ body {
   margin: 3px;
   padding: 5px;
   clear: both; }
+
+a:link {
+  color: #fba250;
+  text-decoration: none; }
+
+a:visited {
+  color: #fba250;
+  text-decoration: none; }
+
+a:hover {
+  color: #bfe0df;
+  text-decoration: none; }
+
+a:active {
+  color: #cd4e50; }
 
 /*# sourceMappingURL=main.css.map */
